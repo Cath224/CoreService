@@ -1,0 +1,1 @@
+alter table ateupeonding_core.notification add column created_timestamp timestamp with time zone default now();

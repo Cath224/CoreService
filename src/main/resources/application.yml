@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: core_service
+  flyway:
+    enabled: true
+    schemas: ateupeonding_core_flyway
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/ateupeonding
+  rabbitmq:
+    host: localhost
+    password: password
+    username: rabbitmq
+
+
+
+server:
+  port: 8080
